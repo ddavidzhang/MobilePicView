@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@+id/gv_item_ly" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/gv_image_ly" android:layout_width="@dimen/main_view_item_w" android:layout_height="@dimen/main_view_item_h" android:layout_marginTop="@dimen/main_view_item_top">
+            <com.utils.views.RoundImageView android:id="@+id/gv_image" android:background="@drawable/gv_loding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <ImageView android:layout_gravity="center|right|top" android:id="@+id/gv_new_tip" android:background="@drawable/gv_new_tip" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:visibility="invisible"/>
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/gv_name_ly" android:background="@drawable/gv_item_round_ly_bottom_style" android:layout_width="@dimen/main_view_item_w" android:layout_height="@dimen/main_view_item_text_ly_h">
+            <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@+id/gv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

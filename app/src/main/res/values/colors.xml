@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="abc_search_url_text_normal">#ff7fa87f</color>
+    <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="abc_search_url_text_pressed">@android:color/black</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="gray">#ff757474</color>
+    <color name="blue">#ff02a5db</color>
+    <color name="red">#ffff0000</color>
+    <color name="activity_bg">#fff3edde</color>
+    <!-- 公共的 -->
+    <color name="tab_main_text_1">#aaa</color>
+    <color name="tab_main_text_2">#74b5f7</color>
+    <color name="tab_top_text_1">#aaa</color>
+    <color name="tab_top_text_2">#000</color>
+    <color name="tab_top2_text_1">#000</color>
+    <color name="tab_top2_text_2">#fff</color>
+    <color name="divide_line">#80757474</color>
+    <color name="radiobg_press">#ff43859d</color>
+    <color name="radiobg_normal">#fff47751</color>
+
+    <color name="view_img_activtiy_bg">#ff454444</color>
+
+
+
+</resources>

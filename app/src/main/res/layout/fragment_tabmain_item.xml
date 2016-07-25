@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout android:id="@+id/main_bannder_ly" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <GridView android:gravity="center" android:id="@+id/gridview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:numColumns="2" android:layout_above="@id/main_bannder_ly" />
+
+</FrameLayout>

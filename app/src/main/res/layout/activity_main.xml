@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/main_titlebar" android:background="#ff64cfba" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:id="@+id/main_img_silde" android:background="@drawable/title_silde_style" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@+id/main_img_home" android:background="@drawable/title_home_style" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_toRightOf="@id/main_img_silde" />
+        <ImageView android:id="@+id/main_img_options" android:background="@drawable/title_options_style" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <com.shizhefei.view.indicator.ScrollIndicatorView
+        android:id="@+id/tab_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/tab_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

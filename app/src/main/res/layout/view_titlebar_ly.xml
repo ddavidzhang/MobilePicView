@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/view_bar_ly" android:background="@color/radiobg_normal" android:layout_width="fill_parent" android:layout_height="65.0dip">
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/viewimg_titlebar_optipns_ly" android:background="@drawable/radiobtn_selector" android:layout_width="50.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/viewimg_titlebar_save_line" android:background="@color/divide_line" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" />
+            <ImageView android:id="@+id/viewimg_options" android:background="@drawable/set_normal" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/viewimg_titlebar_optipns_ly" android:layout_centerInParent="true">
+            <TextView android:textSize="@dimen/fox_text_size_btn" android:textColor="#ffffffff" android:id="@+id/view_bar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="置身海边 1/10" android:layout_centerHorizontal="true" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="2.0dip" android:layout_below="@id/view_bar_text">
+                <RelativeLayout android:id="@+id/view_bar_comment_ly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_alignParentLeft="true">
+                    <ImageView android:id="@+id/view_bar_comment_icon" android:background="@drawable/view_bar_comment_bg_style" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/scanlist_item_text_size" android:textColor="#ffffffff" android:id="@+id/view_bar_comment_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="0" android:layout_toRightOf="@id/view_bar_comment_icon" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/view_bar_priase_ly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <ImageView android:id="@+id/view_bar_priase_icon" android:background="@drawable/view_bar_priase_bg_style1" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/scanlist_item_text_size" android:textColor="#ffffffff" android:id="@+id/view_bar_priase_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="0" android:layout_toRightOf="@id/view_bar_priase_icon" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/view_bar_share_ly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true">
+                    <ImageView android:id="@+id/view_bar_share_icon" android:background="@drawable/view_bar_share_bg_style" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/scanlist_item_text_size" android:textColor="#ffffffff" android:id="@+id/view_bar_share_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="0" android:layout_toRightOf="@id/view_bar_share_icon" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
