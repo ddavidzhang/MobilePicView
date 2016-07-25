@@ -1,2 +1,1 @@
-#beautyshare
-go go go
+# MobilePicView
