@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/androidsupportv4" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/color" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tabmain_item.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/tab_top.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/viewPagerIndicator_Library" charset="GBK" />
+  <component name="Encoding">
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
